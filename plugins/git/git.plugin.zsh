@@ -17,6 +17,11 @@ alias glg='git log --stat --max-count=5'
 
 # Git and svn mix
 alias git-svn-dcommit-push='git svn dcommit && git push github master:svntrunk'
+alias gsup='git svn rebase'
+alias gsci='git svn dcommit'
+
+# GitX
+alias gitx='open /Applications/GitX.app/ -n'
 
 #
 # Will return the current branch name
