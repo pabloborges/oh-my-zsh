@@ -1,0 +1,1 @@
+alias pow='~/bin/pow'
