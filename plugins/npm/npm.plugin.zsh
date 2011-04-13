@@ -2,7 +2,6 @@
 #
 # npm command completion script
 #
-
 COMP_WORDBREAKS=${COMP_WORDBREAKS/=/}
 COMP_WORDBREAKS=${COMP_WORDBREAKS/@/}
 export COMP_WORDBREAKS
