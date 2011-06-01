@@ -17,4 +17,4 @@ function _cap () {
   fi
 }
 
-compdef _cap cap
+compctl -K _cap cap

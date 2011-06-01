@@ -11,3 +11,4 @@ function brewup() {
     brew cleanup
   fi
 }
+alias brews='brew list -1'
