@@ -8,7 +8,8 @@ function _rails_command () {
   fi
 }
 
-alias rc='_rails_command console'
+alias rc='pry -r ./config/environment'
+alias rcon='_rails_command console'
 alias rd='_rails_command destroy'
 alias rdb='_rails_command dbconsole'
 alias rdbm='rake db:migrate db:test:clone'
